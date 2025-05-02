@@ -1,4 +1,4 @@
-# Linux Essentials Exam Refresher Guide
+# Linux Refresher Guide
 
 ## Introduction
 
