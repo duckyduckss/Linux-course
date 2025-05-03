@@ -40,7 +40,7 @@
     * Uses 64-bit addressing – supports very large disks (up to \~9 ZB, essentially no practical size limit).
     * Allows up to **128 partitions** (all are “primary”; no extended/logical needed).
     * Stores multiple copies of partition metadata (primary header at disk start, backup header at end) for redundancy. Also includes a *protective MBR* so old tools see the disk as occupied (to avoid overwriting GPT by MBR-only tools).
-    * Each partition has a **GUID** identifier and a type GUID (no simple hex codes like MBR).
+    * Each partition has a **GUID**(Globally Unique Identifier) and a type GUID (no simple hex codes like MBR).
     * Required by UEFI systems for booting from large disks and generally more robust.
 * **Other partitioning schemes:** Linux can also recognize BSD disklabels, Apple Partition Map (APM), etc., but MBR and GPT are most common on PCs.
 
